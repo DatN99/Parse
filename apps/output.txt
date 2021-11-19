@@ -1,0 +1,35 @@
+path: Zuum\smali\com\m4u\vivozuum\comunicacao\https\ComunicacaoHttps.smali    new-instance v4, Lorg/apache/http/conn/ssl/AllowAllHostnameVerifier;
+path: Zuum\smali\com\m4u\vivozuum\comunicacao\https\ComunicacaoHttps.smali    invoke-direct {v4}, Lorg/apache/http/conn/ssl/AllowAllHostnameVerifier;-><init>()V
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\Dashboard.smali    const-string v0, "http://xmlpull.org/v1/doc/features.html#process-namespaces"
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\df.smali    invoke-virtual {p2}, Landroid/webkit/SslErrorHandler;->proceed()V
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\hc.smali    invoke-virtual {p2}, Landroid/webkit/SslErrorHandler;->proceed()V
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\Login_Signup.smali    const-string v1, "By logging in or creating an account on our app, you have read and agreed to our <a href=\"https://www.oxigenwallet.com/terms-conditions\"> Terms and Conditions </a> and our<a href=\"http://docs.google.com/gview?embedded=true&url=https://www.oxigenwallet.com/pdf/Oxigen-Privacy-Policy.pdf\"> Privacy Policy</a>"
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\SignUp.smali    const-string v1, "By creating an account with our app, you have read and agreed to our <a href=\"https://www.oxigenwallet.com/terms-conditions\"> Terms and Conditions </a> and <a href=\"http://docs.google.com/gview?embedded=true&url=https://www.oxigenwallet.com/pdf/Oxigen-Privacy-Policy.pdf\"> Privacy Policy</a>"
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\airtime\AskSelectFriend.smali    const-string v0, "http://xmlpull.org/v1/doc/features.html#process-namespaces"
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\c\c.smali    const-string v1, "http://xmlpull.org/v1/doc/features.html#process-namespaces"
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\common\ab.smali    invoke-virtual {p2}, Landroid/webkit/SslErrorHandler;->proceed()V
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\common\d.smali    const-string v0, "http://xmlpull.org/v1/doc/features.html#process-namespaces"
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\common\d.smali    const-string v0, "http://xmlpull.org/v1/doc/features.html#process-namespaces"
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\common\l.smali    const-string v0, "http://xmlpull.org/v1/doc/features.html#process-namespaces"
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\common\s.smali    const-string v0, "http://xmlpull.org/v1/doc/features.html#process-namespaces"
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\giftairtime\GiftSelectFriend.smali    const-string v0, "http://xmlpull.org/v1/doc/features.html#process-namespaces"
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\giftcards\BuyGiftCards.smali    const-string v0, "http://xmlpull.org/v1/doc/features.html#process-namespaces"
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\giftcards\GiftCard_TabHost.smali    const-string v0, "http://xmlpull.org/v1/doc/features.html#process-namespaces"
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\giftcards\GiftMenu.smali    const-string v0, "http://xmlpull.org/v1/doc/features.html#process-namespaces"
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\giftcards\SavedGiftCardDetails.smali    const-string v0, "http://xmlpull.org/v1/doc/features.html#process-namespaces"
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\merchantpayment\ak.smali    invoke-virtual {p2}, Landroid/webkit/SslErrorHandler;->proceed()V
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\netone\df.smali    invoke-virtual {p2}, Landroid/webkit/SslErrorHandler;->proceed()V
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\reciever\ActivateChannel.smali    const-string v0, "http://xmlpull.org/v1/doc/features.html#process-namespaces"
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\reciever\ActivateSocailChannels.smali    const-string v0, "http://xmlpull.org/v1/doc/features.html#process-namespaces"
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\reciever\at.smali    const-string v1, "</Wuid><CallBackUrl>http://xyz.com</CallBackUrl><ErrorCallBackkUrl>http://abc.com</ErrorCallBackkUrl><Social>"
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\reciever\o.smali    const-string v1, "</Wuid><CallBackUrl>http://xyz.com</CallBackUrl><ErrorCallBackkUrl>http://abc.com</ErrorCallBackkUrl><Social>"
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\sendmoney\bj.smali    const-string v1, "</Wuid><CallBackUrl>http://xyz.com</CallBackUrl><ErrorCallBackkUrl>http://abc.com</ErrorCallBackkUrl><Social>"
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\sendmoney\cm.smali    const-string v1, "</Wuid><CallBackUrl>http://xyz.com</CallBackUrl><ErrorCallBackkUrl>http://abc.com</ErrorCallBackkUrl><Social>"
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\sendmoney\cz.smali    invoke-virtual {p2}, Landroid/webkit/SslErrorHandler;->proceed()V
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\sendmoney\SelectFriend.smali    const-string v0, "http://xmlpull.org/v1/doc/features.html#process-namespaces"
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\sendmoney\SocialConnect.smali    const-string v0, "http://xmlpull.org/v1/doc/features.html#process-namespaces"
+path: OxigenWallet\smali\com\oxigen\oxigenwallet\sendmoney\SocialConnectSpread.smali    const-string v0, "http://xmlpull.org/v1/doc/features.html#process-namespaces"
+path: Zuum\smali\com\m4u\vivozuum\comunicacao\https\ComunicacaoHttps.smali    new-instance v4, Lorg/apache/http/conn/ssl/AllowAllHostnameVerifier;
+path: Zuum\smali\com\m4u\vivozuum\comunicacao\https\ComunicacaoHttps.smali    invoke-direct {v4}, Lorg/apache/http/conn/ssl/AllowAllHostnameVerifier;-><init>()V
+path: Zuum\smali\com\m4u\vivozuum\comunicacao\https\ComunicacaoHttps.smali    new-instance v4, Lorg/apache/http/conn/ssl/AllowAllHostnameVerifier;
+path: Zuum\smali\com\m4u\vivozuum\comunicacao\https\ComunicacaoHttps.smali    invoke-direct {v4}, Lorg/apache/http/conn/ssl/AllowAllHostnameVerifier;-><init>()V
