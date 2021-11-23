@@ -1,0 +1,3 @@
+To run:
+-navigate to /apps
+-use command line argument: python3 Nguyen-analyze.py <target apk>
