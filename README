@@ -1,8 +1,9 @@
 For my Mobile Application Security Class, we had to create a python script that 
 1) disassembles an apk into .smali files
 2) look in the AndroidManifest file to find where the packages are to find the relevant source code
-3) look through all files in each relevant directory to find instances of SSL vulnerabilities 
+3) look through all files in each relevant directory to find instances of SSL vulnerabilities such as "http://" or "proceed()"
 
 To run:
 -navigate to /apps
 -use command line argument: python3 Nguyen-analyze.py <target apk> 
+-the output.txt file will contain all strings making the app vulnerable 
